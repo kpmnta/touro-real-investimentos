@@ -11,8 +11,8 @@
 
     <!-- Hotjar Tracking Code for https://touroreal.com.br/ -->
     <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
                 (h.hj.q = h.hj.q || []).push(arguments)
             };
             h._hjSettings = {
@@ -30,6 +30,19 @@
 </head>
 
 <body>
+    <div id="pop-up" class="popup-wrapper">
+        <div class="popup-container">
+            <div class="popup-exit">
+                <button class="close-button" onclick="closePopup()">&times;</button>
+            </div>
+            <div class="popup-title">
+                <h5>Você ainda não fez sua Inscrição!</br> Cadastre-se agora e participe gratuitamente do nosso evento.
+                </h5>
+                <a onclick="closePopup()" href="#quero-par">quero participar</a>
+            </div>
+        </div>
+    </div>
+
     <section class="start">
 
         <div class="img-logo">
@@ -50,7 +63,8 @@
             <h3 class="laranja">Webinar ao vivo</h2>
                 <h1 class="preto">Invista sem sair de casa:</br> dê um start na sua educação financeira!</h1>
                 <h3 class="preto">08 de julho de 2020, às 20:00hs</h3>
-                <h3 class="faltam">Nossa live já ocorreu, fique por dentro <a class="change" href="https://www.youtube.com/watch?v=fHVDP7eZzUc">clicando aqui</a></h3>
+                <h3 class="faltam">Nossa live já ocorreu, fique por dentro <a class="change"
+                        href="https://www.youtube.com/watch?v=fHVDP7eZzUc">clicando aqui</a></h3>
                 <!-- <h3 class="faltam">FALTAM</h3> -->
         </div>
 
@@ -58,9 +72,12 @@
             <div id="regressiva"></div>
         </div> -->
         <div class="conteudo">
-            <p>Com a chegada da crise ficou evidente que é essencial saber gerenciar o seu dinheiro e ter uma base segura para investir!
-                <br/> Principalmente agora, as pessoas começaram a pensar mais na importância de ter uma reserva financeira e, com isso, começaram a considerar a ideia de realizar investimentos.
-                <br/> Neste Webinar você entenderá melhor como gerenciar o seu dinheiro e a fazer investimentos de forma fácil e consciente.</p>
+            <p>Com a chegada da crise ficou evidente que é essencial saber gerenciar o seu dinheiro e ter uma base
+                segura para investir!
+                <br /> Principalmente agora, as pessoas começaram a pensar mais na importância de ter uma reserva
+                financeira e, com isso, começaram a considerar a ideia de realizar investimentos.
+                <br /> Neste Webinar você entenderá melhor como gerenciar o seu dinheiro e a fazer investimentos de
+                forma fácil e consciente.</p>
         </div>
     </section>
 
@@ -70,7 +87,8 @@
         </div>
         <div class="imagens-alinhamento">
             <div class="container-img">
-                <img class="organizacao_financeira" src="./img/organizacao_financeira.png" alt="icone organização financeira">
+                <img class="organizacao_financeira" src="./img/organizacao_financeira.png"
+                    alt="icone organização financeira">
                 <p class="container-text branco">organização financeira
                 </p>
             </div>
@@ -102,17 +120,25 @@
                     <img class="img-palestrantes" src="./img/joaojusto.jpeg" alt="Foto de João Justo">
                     <div class="cinza">
                         <p class="nome">João Justo</p>
-                        <p class="sobre">Engenheiro químico de formação, atualmente cursando MBA em Transformação Digital e Futuro dos Negócios, nascido em uma pequena cidade do interior de São Paulo, a querida São Manuel, onde viveu a maior parte da vida. Atualmente
-                            é Analista de Negócios do NINNA Hub | GROW+, onde trabalha com negócios e inovação, ajudando empresas a criar estratégias que sejam acopladas ao seu planejamento estratégico com foco em gerar sucesso nos movimentos de inovação
-                            e transformação digital dos negócios, além de gerar oportunidades para outros empreendedores, as startups.</p>
+                        <p class="sobre">Engenheiro químico de formação, atualmente cursando MBA em Transformação
+                            Digital e Futuro dos Negócios, nascido em uma pequena cidade do interior de São Paulo, a
+                            querida São Manuel, onde viveu a maior parte da vida. Atualmente
+                            é Analista de Negócios do NINNA Hub | GROW+, onde trabalha com negócios e inovação, ajudando
+                            empresas a criar estratégias que sejam acopladas ao seu planejamento estratégico com foco em
+                            gerar sucesso nos movimentos de inovação
+                            e transformação digital dos negócios, além de gerar oportunidades para outros
+                            empreendedores, as startups.</p>
                     </div>
                 </li>
                 <li class="palestra">
                     <img class="img-palestrantes" src="./img/camila.jpg" alt="Foto de Camila Forte">
                     <div class="cinza">
                         <p class="nome">Camila Forte</p>
-                        <p class=sobre>Administradora, Mestranda em Propriedade Intelectual e Transferência de Tecnologia para Inovação, Pós Graduada em Finanças e Auditoria, Analista do Instituto SENAI de Tecnologia, Embaixadora no CE do Programa Conecta Startup Brasil,
-                            líder do Startup Weekend Fortaleza, entusiasta do ecossistema de empreendedorismo e inovação.</p>
+                        <p class=sobre>Administradora, Mestranda em Propriedade Intelectual e Transferência de
+                            Tecnologia para Inovação, Pós Graduada em Finanças e Auditoria, Analista do Instituto SENAI
+                            de Tecnologia, Embaixadora no CE do Programa Conecta Startup Brasil,
+                            líder do Startup Weekend Fortaleza, entusiasta do ecossistema de empreendedorismo e
+                            inovação.</p>
                     </div>
                 </li>
                 <li class="palestra">
@@ -120,9 +146,14 @@
                     <img class="img-palestrantes" src="./img/fabio.jpg" alt="Foto de Fabio">
                     <div class="cinza">
                         <p class="nome">Fábio Ortiz</p>
-                        <p class="sobre">Acreano, que começou a vida fazendo programas, trabalhando junto com TRE e governo do Acre, teve sua primeira empresa aos 18 anos atendendo a outras empresas na área de desenvolvimento de softwares, entre elas o Conselho regional
-                            de Medicina do Acre. Virou a chave para a inovação atuando com o Sebrae na gestão de projetos de startups. Criou a metodologia de atendimento a empresas de inovação - Sebrae Lab e do programa de pré aceleração do Sebrae no
-                            Acre. Foi business development para o Programa corredores digitais e hoje atua como analista de inovação para o Ninna Hub e Grow+</p>
+                        <p class="sobre">Acreano, que começou a vida fazendo programas, trabalhando junto com TRE e
+                            governo do Acre, teve sua primeira empresa aos 18 anos atendendo a outras empresas na área
+                            de desenvolvimento de softwares, entre elas o Conselho regional
+                            de Medicina do Acre. Virou a chave para a inovação atuando com o Sebrae na gestão de
+                            projetos de startups. Criou a metodologia de atendimento a empresas de inovação - Sebrae Lab
+                            e do programa de pré aceleração do Sebrae no
+                            Acre. Foi business development para o Programa corredores digitais e hoje atua como analista
+                            de inovação para o Ninna Hub e Grow+</p>
                     </div>
                 </li>
             </ul>
@@ -160,16 +191,23 @@
         </div>
         <h1 id="real-q">Quem é a Touro Real?</h1>
         <div class="somos">
-            <p class="quem-somos">Compreendemos que planejamento e educação financeira são necessidades na vida dos brasileiros, porém, ainda há uma dificuldade em iniciar em processo e até mesmo uma conversa sobre o assunto. O Touro Real surgiu para ajudar você a entendermelhor sobre o seu dinheiro e a fazer investimentos fáceis e conscientes! Afinal, você não precisa ser um especialista em finanças para começar. Conheça as melhores formas de investir e alcance a tão sonhada liberdade financeira sem sair de casa.
+            <p class="quem-somos">Compreendemos que planejamento e educação financeira são necessidades na vida dos
+                brasileiros, porém, ainda há uma dificuldade em iniciar em processo e até mesmo uma conversa sobre o
+                assunto. O Touro Real surgiu para ajudar você a entendermelhor sobre o seu dinheiro e a fazer
+                investimentos fáceis e conscientes! Afinal, você não precisa ser um especialista em finanças para
+                começar. Conheça as melhores formas de investir e alcance a tão sonhada liberdade financeira sem sair de
+                casa.
             </p>
         </div>
     </section>
     <footer class="rodape">
         <span>
-            <a href="https://www.facebook.com/Touro-Real-111399383969823"><img class="facebook" src="./img/logo Facebook.png" alt="logo facebook"></a>  
-    
-            <a href="https://www.instagram.com/touroreal/"><img class="instagram" src="./img/logo Instagram.png" alt="logo instagram"></a>
-   
+            <a href="https://www.facebook.com/Touro-Real-111399383969823"><img class="facebook"
+                    src="./img/logo Facebook.png" alt="logo facebook"></a>
+
+            <a href="https://www.instagram.com/touroreal/"><img class="instagram" src="./img/logo Instagram.png"
+                    alt="logo instagram"></a>
+
             <h6 id="contato">entre em contato conosco!</h6>
         </span>
 
@@ -179,30 +217,8 @@
         </span>
 
     </footer>
-    <script type="text/javascript" src="./js/bioep.js"></script>
-    <script type="text/javascript">
-        bioEp.init({
-            html: '<div id="bio_ep_content">' +
-                    '<img src="" alt="" />' +
-                    '<span>Você ainda não fez a sua inscrição!</span>' +
-                    '<span>Cadastre-se agora e participe do nosso evento gratuitamente:</span>' +
-                    '<span></span>' +
-                    '<label>seu melhor e-mail</label>' +
-                    '<input type="email" nome="email" required>' +
-                    '<a href="http:touroreal.com.br" class="bio_btn">CLIQUE AQUI</a>' +
-                    '</div>',
-            css: '#bio_ep {width: 563px; height: 312px; color: #fff; border-radius: 37px; background: #464646; text-align: center;}' +
-                    '#bio_ep_content {padding: 80px 0 0 0; font-family: "Titillium Web";}' +
-                    '#bio_ep_content span:nth-child(2) {display: block; color: #fff; font-size: 32px; font-weight: 600;}' +
-                    '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
-                    '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
-                  /*button*/  '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 10px; color: black; font-size: 14px; font-weight: 600; background-color: #EF711D; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
-            fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
-            cookieExp: 0
-        });
-    </script>
-    
-    <script src="./js/javascript.js"></script>
+    <!-- <script src="./js/javascript.js"></script> -->
+    <script src="./js/popup.js"></script>
 </body>
 
 </html>

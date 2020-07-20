@@ -235,59 +235,6 @@ body {
     width: 202px;
 }
 
-.rodape {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 80px;
-    background: #333231;
-}
-
-.rodape span {
-    display: flex;
-    align-items: center;
-}
-
-#contato {
-    width: 420px;
-    height: 43px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 45px;
-    color: #fff;
-}
-
-#contato2 {
-    width: 298px;
-    height: 43px;
-    left: 941px;
-    top: -40px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 45px;
-    color: #ffffff;
-}
-
-.facebook {
-    width: 43px;
-    margin-right: 15px;
-    background: url(facebook.png);
-}
-
-.instagram {
-    width: 43px;
-    margin-right: 15px;
-    background: url(instagram.png);
-}
-
-.email {
-    width: 61px;
-    margin-right: 15px;
-    background: url(e-mail.png);
-}
-
 .coll {
     background: url(../img/Figura_03.png);
     background-repeat: no-repeat;
@@ -329,18 +276,12 @@ form {
     height: 60px;
 }
 
-
-/* figura background segunda pagina */
-
 .figura_02 {
     background: url('../img/Figura_02.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-
-/*subtitulo Neste webinar você vai aprender sobre: */
 
 .subtitulopaginestewebinar {
     font-style: normal;
@@ -351,9 +292,6 @@ form {
     color: #ef711d;
     padding-top: 50px;
 }
-
-
-/* figura organização financeira */
 
 .organizacao_financeira {
     width: 170px;
@@ -414,6 +352,59 @@ form {
 }
 
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: #333231;
+}
+
+.rodape span {
+    display: flex;
+    align-items: center;
+}
+
+#contato {
+    width: 420px;
+    height: 43px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    color: #fff;
+}
+
+#contato2 {
+    width: 298px;
+    height: 43px;
+    left: 941px;
+    top: -40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.facebook {
+    width: 43px;
+    margin-right: 15px;
+    background: url(facebook.png);
+}
+
+.instagram {
+    width: 43px;
+    margin-right: 15px;
+    background: url(instagram.png);
+}
+
+.email {
+    width: 61px;
+    margin-right: 15px;
+    background: url(e-mail.png);
+}
+
 
 @media (max-width: 600px) {
     .box {
@@ -473,10 +464,56 @@ form {
     }
 }
 
+/* alteração após contagem regressiva finalizada */
 .change {
     display: flex;
     justify-content: center;
     color: #ef711d;
     font-size: 24px;
     margin: auto;
+}
+
+/* Pop Up */
+#pop-up {
+    box-sizing: border-box;
+    display: none;
+}
+
+.popup-wrapper {
+    background: rgba(0, 0, 0, .75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.popup-exit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup-exit button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.popup-container {
+    background: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding: 20px;
+    width: 500px;
+}
+
+.popup-title {
+    font-size: 26px;
+    margin-bottom: 15px
 }
