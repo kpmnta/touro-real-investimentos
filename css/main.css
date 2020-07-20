@@ -62,7 +62,6 @@ body {
     line-height: 30px;
     text-align: center;
     margin: auto;
-    
 }
 
 .mais a {
@@ -79,7 +78,6 @@ body {
     background: #fff;
 }
 
-
 .mais2 {
     display: flex;
     justify-content: center;
@@ -93,10 +91,8 @@ body {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    margin: auto;
-    
+    margin: auto;  
 }
-
 
 .mais2 a {
     margin: auto;
@@ -108,11 +104,11 @@ body {
     padding-right: 15px;
 }
 
-.mais2:hover {
+.mais2:hover { 
     background: #fff;
 }
 
-
+/* só aparecia enquanto a regressiva aparecia */
 .box {
     background: #383333;
     width: 700px;
@@ -122,7 +118,7 @@ body {
     justify-content: center;
     margin: 0 auto;
 }
-
+/* só aparecia enquanto a regressiva aparecia */
 #regressiva {
     color: #efe162;
     font-size: 70px;
@@ -139,7 +135,7 @@ body {
 .texto h1 {
     font-size: 50px;
 }
-
+/* só apareciam enquanto a regressiva aparecia */
 .faltam {
     margin-top: 60px;
 }
@@ -198,14 +194,13 @@ body {
 }
 
 .sobre {
-    text-align: center;
+    text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 #real-q {
     text-align: center;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -223,7 +218,6 @@ body {
 .quem-somos {
     max-width: 1270px;
     text-align: justify;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -257,12 +251,11 @@ body {
 #contato {
     width: 420px;
     height: 43px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 45px;
-    color: #ffffff;
+    color: #fff;
 }
 
 #contato2 {
@@ -270,7 +263,6 @@ body {
     height: 43px;
     left: 941px;
     top: -40px;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -280,27 +272,18 @@ body {
 
 .facebook {
     width: 43px;
-    height: 43px;
-    left: 163px;
-    top: 15px;
     margin-right: 15px;
     background: url(facebook.png);
 }
 
 .instagram {
     width: 43px;
-    height: 43px;
-    left: 220px;
-    top: 15px;
     margin-right: 15px;
     background: url(instagram.png);
 }
 
 .email {
     width: 61px;
-    height: 38px;
-    left: 866px;
-    top: 15px;
     margin-right: 15px;
     background: url(e-mail.png);
 }
@@ -316,7 +299,6 @@ body {
     padding-top: 30px;
     margin-bottom: 70px;
     text-align: center;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -361,7 +343,6 @@ form {
 /*subtitulo Neste webinar você vai aprender sobre: */
 
 .subtitulopaginestewebinar {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -384,7 +365,6 @@ form {
 }
 
 .container-text {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -426,6 +406,7 @@ form {
     background: #ef711d;
     border-radius: 25px;
     cursor: pointer;
+    border: none;
 }
 
 .button:hover {
@@ -455,12 +436,22 @@ form {
     .cinza {
         margin: 0 auto;
     }
+
+    .palestrantes h3 {
+        margin-bottom: 15px;
+    }
+    
+    .img-palestrantes {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
     #caixa-nome {
-        width: 400px;
+        width: 100%;
         height: 50px;
     }
     #email-email {
-        width: 400px;
+        width: 100%;
         height: 50px;
     }
     .quem-somos {
