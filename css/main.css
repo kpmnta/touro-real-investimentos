@@ -20,7 +20,6 @@ body {
 .logo {
     margin-top: 30px;
     width: 170px;
-    height: 125px;
     text-align: center;
 }
 
@@ -225,23 +224,13 @@ body {
     color: #181818;
 }
 
-.pagina {
-    background: url(touroso.png);
-    display: flex;
-    justify-content: center;
-}
-
-.pagina img {
-    width: 202px;
-}
-
-.coll {
+.form-participar {
     background: url(../img/Figura_03.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.quero-par {
+.participar {
     margin-top: 50px;
     padding-top: 30px;
     margin-bottom: 70px;
@@ -276,14 +265,14 @@ form {
     height: 60px;
 }
 
-.figura_02 {
+.webinar {
     background: url('../img/Figura_02.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.subtitulopaginestewebinar {
+.webinar-subtitulo {
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -352,7 +341,7 @@ form {
 }
 
 
-.rodape {
+footer {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -360,7 +349,7 @@ form {
     background: #333231;
 }
 
-.rodape span {
+footer span {
     display: flex;
     align-items: center;
 }
@@ -450,11 +439,11 @@ form {
         font-size: 18px;
         line-height: 30px;
     }
-    .rodape {
+    footer {
         display: block;
         height: 310px;
     }
-    .rodape span {
+    footer span {
         display: flex;
         align-items: center;
     }
