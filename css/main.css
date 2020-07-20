@@ -19,8 +19,8 @@ body {
 
 .logo {
     margin-top: 30px;
-    width: 142px;
-    height: 105px;
+    width: 170px;
+    height: 125px;
     text-align: center;
 }
 
@@ -257,7 +257,7 @@ body {
 #contato {
     width: 420px;
     height: 43px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -270,12 +270,11 @@ body {
     height: 43px;
     left: 941px;
     top: -40px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 45px;
-    /* or 187% */
     color: #ffffff;
 }
 
@@ -317,7 +316,7 @@ body {
     padding-top: 30px;
     margin-bottom: 70px;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -352,10 +351,6 @@ form {
 /* figura background segunda pagina */
 
 .figura_02 {
-    /* width: 1376px;
-  height: 666px;
-  left: 0px;
-  top: 1589px; */
     background: url('../img/Figura_02.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -366,7 +361,7 @@ form {
 /*subtitulo Neste webinar você vai aprender sobre: */
 
 .subtitulopaginestewebinar {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -380,20 +375,16 @@ form {
 /* figura organização financeira */
 
 .organizacao_financeira {
-    /* position: relative; */
     width: 170px;
     height: 164px;
 }
 
 .container-img {
-    /* width: 30%;
-  float: left; */
     text-align: center;
 }
 
 .container-text {
-    /* display: block; */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -407,19 +398,10 @@ form {
     margin-top: 145px;
 }
 
-
-/* figura investimentos diversos */
-
-.investimentos_diversos {
-    /* position: absolute; */
+.investimentos_diversos { 
     width: 207px;
     height: 152px;
-    /* left: 580px; */
-    background: url ('../img/investimentos_diversos.png');
 }
-
-
-/* figura mercado financeiro */
 
 .mercado_financeiro {
     width: 207px;
@@ -451,81 +433,6 @@ form {
 }
 
 
-/* Codigo pag Obrigado */
-
-
-.obrigado {
-    background-image: url(../img/thanks.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.inscricao p {
-    text-align: center;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 55px;
-    margin-bottom: 70px;
-}
-
-.share {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.whats {
-    width: 475px;
-    height: 70px;
-    background-color: transparent;
-    border: 2;
-    border-color: #fff;
-    font-weight: bolder;
-    border-radius: 25px;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-}
-
-.whats a {
-    text-decoration: none;
-    color: #fff;
-    padding: 20px;
-}
-
-.fab {
-    font-size: 1.25em;
-    color: #fff;
-}
-
-.duvidas {
-    font-weight: bolder;
-    margin-top: 100px;
-    text-align: center;
-    color: #fff;
-}
-
-.mailto {
-    text-decoration: none;
-    color: #fff;
-}
-
-.sociais ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.redes {
-    width: 55px;
-}
-
-.redes {
-    padding-right: 30px;
-}
 
 @media (max-width: 600px) {
     .box {
