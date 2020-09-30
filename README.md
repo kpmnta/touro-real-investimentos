@@ -1,14 +1,12 @@
 # TOURO REAL INVESTIMENTOS
 
-<p align="center">
-  <img align="center" src="img/logo_final_preto.png" width=250> <br>
-</p>
+confira o projeto final no link https://kpmnta.github.io/touro-real-investimentos/ :)
 
 ### Show me the networking
 
 ## Objetivo
 <p align="center">
-    <br> <sub> Atingir 1.000 visualizações através da realização de um evento online cuja temática tenha relação com a persona da empresa representada, neste case a Smarttbot </sub>
+    <br> <sub> Projeto do curso da GAMA Academy com o objetivo de atingir 1.000 visualizações através da realização de um evento online cuja temática tenha relação com a persona da empresa representada, neste case a Smarttbot </sub>
 </p>
 
 ### Integrantes Touro Real Investimentos
